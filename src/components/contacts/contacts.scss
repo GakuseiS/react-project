@@ -1,0 +1,78 @@
+.contacts {
+    display: flex;
+    padding: 40px 80px;
+
+    background-image: url(./whiteBg.jpg);
+
+    color: #000;
+
+    &__title {
+        margin-top: 0;
+
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    &__item {
+        width: 350px;
+
+        &:nth-child(2) {            
+            margin-left: auto;
+            width: 300px;
+        }
+    }
+
+    &__news-item, .contacts__dest {
+        margin: 0;
+        margin-bottom: 25px;
+        line-height: 24px;
+    }
+
+    &__date {
+        display: block;
+
+        text-transform: lowercase;
+    }
+
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__input {
+        box-sizing: border-box;
+        width: 140px;
+        padding: 5px 10px;
+        border: 2px solid #000;
+
+        font-family: inherit;
+        color: #000;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    &__label > #text {
+        margin-bottom: 10px;
+    }
+
+    &__label:nth-child(odd) {
+        margin-right: 20px;
+    }
+
+    &__label:nth-child(-n + 2) {
+        margin-bottom: 10px;
+    }
+
+    &__button {
+        margin-top: 20px;
+    }
+    
+}
+
+.contacts {
+    margin-top: 35px;
+    &__button-map {
+        margin-right: 20px;
+    }
+}

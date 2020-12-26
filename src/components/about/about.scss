@@ -1,0 +1,50 @@
+.about {
+    display: flex;
+    padding: 40px 80px;
+
+    background-image: url(./whiteBg.jpg);
+
+    color: #000;
+
+    &__title {
+        margin-top: 0;
+
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    &__item {
+        width: 350px;
+
+        &:nth-child(2) {            
+            margin-left: auto;
+            width: 300px;
+        }
+    }
+
+    &__news-item, .contacts__dest {
+        margin: 0;
+        margin-bottom: 25px;
+        line-height: 24px;
+    }
+
+    &__date {
+        display: block;
+
+        text-transform: lowercase;
+    }
+
+}
+
+.slider {
+    &__box {
+        padding: 5px;
+        margin-bottom: 45px;
+
+        background-color: #fff;
+    }
+
+    &__prev {
+        margin-right: 15px;
+    }
+}

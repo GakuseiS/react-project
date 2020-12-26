@@ -1,0 +1,30 @@
+.header__container {
+    background-color: black;
+}
+
+.nav{
+    padding: 25px 20px;
+    width: 940px;
+    margin: 0 auto;
+    
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+    &__list{
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        list-style: none;
+    }
+
+    &__item{
+        margin-right: 40px;
+
+        &--enter{
+            margin-left: 320px;
+            margin-right: 0;
+        }
+    }
+}

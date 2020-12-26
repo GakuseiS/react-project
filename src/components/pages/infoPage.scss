@@ -1,0 +1,36 @@
+.main-container {
+    background-image: url(./infoBg.jpg);
+}
+
+.info{
+    padding: 60px 0;
+    width: 940px;
+    margin: 0 auto;
+    
+
+    color: #fff;
+
+    &__logo{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.button {
+    width: 140px;
+    padding: 10px 0;
+
+    background-color: #000;
+    border: none;
+
+    color: #fff;
+    text-transform: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: 24px;
+
+    &--big {
+        width: 300px;
+    }
+}

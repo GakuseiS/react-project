@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__label > #text {
+        margin-bottom: 10px;
+    }
+
+    &__label:nth-child(odd) {
+        margin-right: 20px;
+    }
+
+    &__label:nth-child(-n + 2) {
+        margin-bottom: 10px;
+    }
+
+    &__button {
+        margin-top: 20px;
+    }
+    
+}

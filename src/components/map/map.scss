@@ -1,0 +1,15 @@
+.map {
+    position: absolute;
+    top: 575px;
+    left: calc(50% - 390px);
+
+    height: 565px;
+    width: 765px;
+    padding: 10px;
+
+    background-color: white;
+
+    &__adress {
+        border: 0;
+    }
+}

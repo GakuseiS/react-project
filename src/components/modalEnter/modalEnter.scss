@@ -16,8 +16,10 @@
         margin-top: 0;
     }
 
-    &__circle {
-        position: absolute;
+}
+
+.circle {
+    position: absolute;
         top: 10px;
         right: -35px;
 
@@ -28,61 +30,4 @@
         background-image: url('./crossModal.png');
         background-position: center;
         background-repeat: no-repeat;
-    }
-
-    &__form {
-        &-input {
-            width: 300px;
-            border: 2px solid black;
-            padding: 7px 12px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-    
-            font-family: inherit;
-            font-weight: inherit;
-            color: black;
-            font-size: 14px;
-            text-transform: inherit;
-        }
-
-        &-remember {
-            display: none;
-
-            &:checked + label > .modal__custom-checkbox{
-                background-image: url('./cross.png');
-            }
-        }
-
-        &-forget {
-            border: none;
-            padding: 0;
-            margin-left: 75px;
-
-            background-color: transparent;
-
-            font-size: inherit;
-            font-weight: inherit;
-            font-family: inherit;
-            text-transform: inherit;
-            text-decoration: underline;
-        }
-
-        &-submit {
-            margin-top: 15px;
-        }
-    }
-
-    &__custom-checkbox {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        border: 2px solid black;
-        box-sizing: border-box;
-        margin-right: 5px;
-
-        vertical-align: middle;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
 }

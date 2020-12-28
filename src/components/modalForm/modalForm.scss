@@ -1,0 +1,60 @@
+.modal__form {
+    &-input {
+        position: relative;
+
+        width: 300px !important;
+        margin-bottom: 10px;
+
+        text-transform: uppercase;
+
+        background-repeat: no-repeat;
+        background-position: 270px 10px;
+
+        &--login {
+            background-image: url(./user.png);
+        }
+
+        &--pass {
+            background-image: url(./lock.png);
+        }
+    }
+
+    &-remember {
+        display: none;
+
+        &:checked + label > .modal__custom-checkbox{
+            background-image: url('./cross.png');
+        }
+    }
+
+    &-forget {
+        border: none;
+        padding: 0;
+        margin-left: 75px;
+
+        background-color: transparent;
+
+        font-size: inherit;
+        font-weight: inherit;
+        font-family: inherit;
+        text-transform: inherit;
+        text-decoration: underline;
+    }
+
+    &-submit {
+        margin-top: 15px;
+    }
+}
+
+.modal__custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-right: 5px;
+
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+}

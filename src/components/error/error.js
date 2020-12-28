@@ -1,8 +1,9 @@
 import React from 'react';
+import './error.scss';
 
 const Error = () => {
     return (
-        <div>
+        <div className='error'>
             Что-то пошло не так!
         </div>
     )

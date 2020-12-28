@@ -1,0 +1,52 @@
+#root {
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button {
+    width: 140px;
+    padding: 10px 0;
+
+    background-color: #000;
+    border: none;
+
+    color: #fff;
+    text-transform: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: 24px;
+
+    &:hover, &:active {
+        background-color: #663d15;
+    }
+
+    &--big {
+        width: 300px;
+    }
+}
+
+.input {
+    box-sizing: border-box;
+    width: 140px;
+    padding: 5px 10px;
+    border: 2px solid #000;
+
+    font-family: inherit;
+    color: #000;
+    font-weight: 700;
+    line-height: 24px;
+
+    &:hover {
+        border: 2px solid #663d15;
+    }
+}
+
+.checkbox {
+    &__label:hover {
+        color: #663d15;
+    }
+}

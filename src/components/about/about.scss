@@ -2,7 +2,8 @@
     display: flex;
     padding: 40px 80px;
 
-    background-image: url(./whiteBg.jpg);
+    background: url(./lineBg.png) center no-repeat,
+                url(./whiteBg.jpg) repeat;
 
     color: #000;
 

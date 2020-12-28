@@ -3,7 +3,7 @@
 }
 
 .nav{
-    padding: 25px 20px;
+    padding: 0 20px;
     width: 940px;
     margin: 0 auto;
     
@@ -20,11 +20,37 @@
     }
 
     &__item{
-        margin-right: 40px;
+        padding: 23px 20px;
+
+        &:hover, &:active {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
 
         &--enter{
-            margin-left: 320px;
+            position: relative;
+
+            margin-left: 280px;
             margin-right: 0;
+            padding-left: 50px;
+
+            &::before {
+                content: '';
+
+                position: absolute;
+                left: 10px;
+
+                display: block;
+                width: 20px;
+                height: 22px;
+
+                background-image: url('./login.png');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+
+        &--active {
+            border-bottom: 4px solid white;
         }
     }
 }

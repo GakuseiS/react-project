@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app';
 import ErrorBoundry from './components/errorBoundry';
-import './index.css';
+import './index.scss';
 
 ReactDOM.render(
   <ErrorBoundry>

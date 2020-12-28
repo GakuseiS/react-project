@@ -5,14 +5,14 @@ import Contacts from '../contacts';
 import About from '../about';
 import Features from '../features';
 
-const InfoPage = () => {
+const InfoPage = ({onOpenMap}) => {
     return (
         <div className='main-container'>
             <div className='info'>
                 <img className='info__logo' src={image} alt='logo' />
                 <Features />
                 <About />
-                <Contacts />
+                <Contacts onOpenMap={onOpenMap}/>
             </div>
         </div>
     )

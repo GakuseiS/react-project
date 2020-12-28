@@ -41,6 +41,15 @@
     &__prod-label {
         display: inline-block;
         margin-top: 12px;
+
+        &:active, &:hover {
+            color: #000 !important;
+            background-color: #fff !important;
+        }
+    }
+
+    &__map {
+        text-decoration: underline;
     }
 }
 
@@ -57,15 +66,31 @@
         margin-right: 7px;
     }
 
+    &:active, &:hover {
+        background-color: #fff;
+    }
+
     &--vk {
         background-image: url(./vk.png);
+
+        &:active, &:hover {
+            background-image: url(./vkActive.png);
+        }
     }
 
     &--fb {
         background-image: url(./facebook.png);
+
+        &:active, &:hover {
+            background-image: url(./facebookActive.png);
+        }
     }
 
     &--insta {
         background-image: url(./instagram.png);
+
+        &:active, &:hover {
+            background-image: url(./instagramActive.png);
+        }
     }
 }

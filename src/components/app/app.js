@@ -1,9 +1,10 @@
 import React from 'react';
 import AppHeader from '../appHeader';
-import {InfoPage} from '../pages';
+import { ShopPage} from '../pages';
 import AppFooter from '../appFooter';
 import ModalEnter from '../modalEnter';
 import Map from '../map';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends React.Component {
   state = {
@@ -34,7 +35,8 @@ onCloseMap = () => {
     return (
       <>
         <AppHeader onOpen={this.onOpen}/>
-        <InfoPage onOpenMap={this.onOpenMap}/>
+        {/* <InfoPage onOpenMap={this.onOpenMap}/> */}
+        <ShopPage />
         <AppFooter />
         {modal}
         {map}

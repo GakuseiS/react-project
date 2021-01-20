@@ -1,5 +1,7 @@
 import InfoPage from './infoPage';
+import ShopPage from './shopPage';
 
 export {
-    InfoPage
+    InfoPage,
+    ShopPage
 }

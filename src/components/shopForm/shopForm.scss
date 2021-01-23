@@ -1,0 +1,49 @@
+.shopForm {
+    width: 220px;
+
+    &__sets {
+        margin: 0;
+        margin-bottom: 45px;
+        padding: 0;
+        border: none;
+    }
+
+    &__title {
+        padding: 0;
+        margin-bottom: 25px;
+
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &__list {
+        padding: 0;
+        margin: 0;
+
+        list-style: none;
+    }
+
+    &__item:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+
+    &__label:hover {
+        color: #663d15;
+    }
+
+    &__checkbox {
+        display: none;
+
+        &:checked + label > .custom-checkbox {
+            background-image: url('./cross.png');
+        }
+
+        &:checked + label > .custom-checkbox--radio {
+            background-image: url('./dot.png');
+        }
+    }
+
+    &__custom-checkbox {
+        margin-right: 20px !important;
+    }
+}

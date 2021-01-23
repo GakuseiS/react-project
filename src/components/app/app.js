@@ -1,6 +1,6 @@
 import React from 'react';
 import AppHeader from '../appHeader';
-import { ShopPage} from '../pages';
+import {InfoPage, ShopPage} from '../pages';
 import AppFooter from '../appFooter';
 import ModalEnter from '../modalEnter';
 import Map from '../map';
@@ -34,12 +34,16 @@ onCloseMap = () => {
 
     return (
       <>
-        <AppHeader onOpen={this.onOpen}/>
-        {/* <InfoPage onOpenMap={this.onOpenMap}/> */}
-        <ShopPage />
-        <AppFooter />
-        {modal}
-        {map}
+        <Router>
+          <AppHeader onOpen={this.onOpen}/>
+          <Switch>
+            <Route path='/shop' component={ShopPage} />
+            <Route path='/' render={() => <InfoPage onOpenMap={this.onOpenMap}/>} />
+          </Switch>
+          <AppFooter />
+          {modal}
+          {map}
+        </Router>
       </>
     )
   }

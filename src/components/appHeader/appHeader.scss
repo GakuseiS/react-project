@@ -11,6 +11,11 @@
     line-height: 20px;
     color: #ffffff;
 
+    &__link {
+        color: inherit;
+        text-decoration: none;
+    }
+
     &__list{
         display: flex;
         padding: 0;
@@ -29,7 +34,7 @@
         &--enter{
             position: relative;
 
-            margin-left: 280px;
+            margin-left: auto;
             margin-right: 0;
             padding-left: 50px;
 

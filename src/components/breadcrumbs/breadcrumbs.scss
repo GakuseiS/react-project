@@ -1,0 +1,19 @@
+.breadcrumbs {
+    margin-bottom: 45px;
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+
+    &__item {
+        line-height: 20px;
+        margin-right: 35px;
+
+        &--active {
+            color: #aba9a7;
+        }
+    }
+}

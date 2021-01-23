@@ -40,7 +40,7 @@ onCloseMap = () => {
             <Route path='/shop' component={ShopPage} />
             <Route path='/' render={() => <InfoPage onOpenMap={this.onOpenMap}/>} />
           </Switch>
-          <AppFooter />
+          <AppFooter onOpenMap={this.onOpenMap}/>
           {modal}
           {map}
         </Router>

@@ -16,11 +16,37 @@
     }
 
     &__big-title {
+        position: relative;
+
         margin-top: 0;
         margin-bottom: 30px;
 
         font-size: 48px;
         text-align: center;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            left: 0;
+
+            width: 160px;
+            height: 2px;
+
+            background-image: url('./line.png');
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 30px;
+            right: 0;
+
+            width: 160px;
+            height: 2px;
+
+            background-image: url('./line.png');
+        }
     }
 
     &__wrapper {
@@ -32,6 +58,7 @@
 
     &__block:nth-child(1) {
         width: 260px;
+        margin-bottom: 30px;
     }
 
     &__block:nth-child(2n) {

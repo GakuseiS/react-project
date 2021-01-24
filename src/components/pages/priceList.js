@@ -17,7 +17,7 @@ const PriceList = () => {
                     <div className='price__block'>
                         <h3 className='price__block-title'>Мы используем только лучшие средства:</h3>
                         <ul className='price__block-list'>
-                            <li className='price__block-item'>Barter of California</li>
+                            <li className='price__block-item'>Baxter of California</li>
                             <li className='price__block-item'>Mr Natty</li>
                             <li className='price__block-item'>Suavecito</li>
                             <li className='price__block-item'>Malin+Goetz</li>
@@ -50,7 +50,7 @@ const PriceList = () => {
                     </div>
                     <div className='price__block'>
                         <p className='price__block-text'>
-                            Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+                            Наша мастерская расположена в центре города, поэтому<br /> сделать стильную стрижку можно в любое время, даже в<br /> обеденный перерыв. Здесь вы можете погрузиться в удобную<br /> для вас атмосферу, чувствовать себя комфортно и свободно!
                         </p>
                     </div>
                 </div>

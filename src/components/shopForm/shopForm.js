@@ -38,7 +38,7 @@ const ShopForm = () => {
                     <ul className='shopForm__list'>
                         <li className='shopForm__item'>
                             <input className='shopForm__checkbox' id='shaver' name='group' type='radio' value='shaver'/>
-                            <label className='shopForm__label' htmlFor='shaver'><span className='custom-checkbox custom-checkbox--radio shopForm__custom-checkbox'></span>Бритвенные принадлежности</label>
+                            <label className='shopForm__label' htmlFor='shaver'><span className='custom-checkbox custom-checkbox--radio shopForm__custom-checkbox'></span>Бритвенные &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;принадлежности</label>
                         </li>
                         <li className='shopForm__item'>
                             <input className='shopForm__checkbox' id='care' name='group' type='radio' value='care' defaultChecked/>

@@ -18,14 +18,10 @@ class AppHeader extends React.Component {
                     <nav className='nav'>
                         <ul className='nav__list'>
                             {logoH}
-                            <NavLink className='nav__link' to='/' exact activeClassName='nav__item--active'>
-                                <li className='nav__item'>Информация</li>
-                            </NavLink>
+                            <li className='nav__item'><NavLink className='nav__link' to='/' exact activeClassName='nav__item--active'>Информация</NavLink></li>
                             <li className='nav__item'>Новости</li>
                             <li className='nav__item'>Прайс-лист</li>
-                            <NavLink className='nav__link' to='/shop' activeClassName='nav__item--active'>
-                                <li className='nav__item'>Магазин</li>
-                            </NavLink>
+                            <li className='nav__item'><NavLink className='nav__link' to='/shop' activeClassName='nav__item--active'>Магазин</NavLink></li>
                             <li className='nav__item'>Контакты</li>
                             <li onClick={this.props.onOpen} className='nav__item nav__item--enter'>Вход</li>
                         </ul>
